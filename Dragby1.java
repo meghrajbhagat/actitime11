@@ -18,6 +18,7 @@ public class Dragby1 {
 		WebElement source = driver.findElement(By.id("draggable"));
 		Actions a=new Actions(driver);
 		a.dragAndDropBy(source, 80, 0).perform();
+		Thread.sleep(2000);
 	
 	}
 	
